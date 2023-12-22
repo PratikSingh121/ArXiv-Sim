@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "easyarxiv"
+version = "0.1.0"
+description = "EasyArXiv is a web-based application that aims to help researchers and students read, understand, and interact with papers published on arXiv, a popular online repository of scientific preprints."
+authors = ["PratikSingh121 <pratikcoding121@gmail.com>"]
+license = "Apache-2.0 license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.352"
+openai = "^1.6.1"
+arxiv = "^2.1.0"
+streamlit = "^1.29.0"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
